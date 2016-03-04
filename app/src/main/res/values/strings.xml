@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVPDemo</string>
+
+    <string name="label_login">Login In</string>
+</resources>
