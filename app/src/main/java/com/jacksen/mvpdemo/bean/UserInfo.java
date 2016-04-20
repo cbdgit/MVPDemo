@@ -3,7 +3,7 @@ package com.jacksen.mvpdemo.bean;
 /**
  * Created by Admin on 2016/3/4.
  */
-public class LoginBean {
+public class UserInfo {
 
     private String phoneNum;
 

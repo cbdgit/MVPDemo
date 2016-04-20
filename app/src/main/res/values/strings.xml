@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">MVPDemo</string>
 
-    <string name="label_login">Login In</string>
+    <string name="hint_input_phone">请输入手机号码</string>
+
+    <string name="hint_input_password">请输入密码</string>
+
+    <string name="login_button">登录</string>
 </resources>

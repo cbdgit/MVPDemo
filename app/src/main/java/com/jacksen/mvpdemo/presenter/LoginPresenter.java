@@ -1,9 +1,9 @@
-package com.jacksen.mvpdemo.model;
+package com.jacksen.mvpdemo.presenter;
 
 /**
  * Created by Admin on 2016/3/4.
  */
-public interface LoginInter {
+public interface LoginPresenter extends BasePresenter {
 
     void login(String phoneNum, String password);
 }
