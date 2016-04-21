@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         setContentView(R.layout.activity_login);
 
         if (null == loginPresenter) {
-            loginPresenter = new LoginPresenterImpl(this, new LoginModelImpl());
+            loginPresenter = new LoginPresenterImpl(this);
         }
 
         progressBar = (ProgressBar) findViewById(R.id.login_progress);

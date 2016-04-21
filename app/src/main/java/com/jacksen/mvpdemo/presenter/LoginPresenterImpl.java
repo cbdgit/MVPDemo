@@ -1,6 +1,7 @@
 package com.jacksen.mvpdemo.presenter;
 
 import com.jacksen.mvpdemo.model.LoginModel;
+import com.jacksen.mvpdemo.model.LoginModelImpl;
 import com.jacksen.mvpdemo.view.LoginView;
 
 /**
@@ -12,9 +13,9 @@ public class LoginPresenterImpl implements LoginPresenter {
 
     private LoginModel loginModel;
 
-    public LoginPresenterImpl(LoginView loginView, LoginModel loginModel) {
+    public LoginPresenterImpl(LoginView loginView) {
         this.loginView = loginView;
-        this.loginModel = loginModel;
+        this.loginModel = new LoginModelImpl();
     }
 
     @Override

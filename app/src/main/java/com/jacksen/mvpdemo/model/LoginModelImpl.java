@@ -22,6 +22,9 @@ public class LoginModelImpl implements LoginModel {
 
     }
 
+    /**
+     *
+     */
     public class UserLoginTask extends AsyncTask<Void, Void, Boolean> {
 
         private LoginCallback callback;
