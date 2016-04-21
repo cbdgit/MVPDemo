@@ -14,6 +14,7 @@ public class WeatherPresenterImpl implements WeatherPresenter {
     private SearchWeatherModel searchWeatherModel;
 
     public WeatherPresenterImpl() {
+        //
         searchWeatherModel = new SearchWeatherImpl(this);
     }
 
