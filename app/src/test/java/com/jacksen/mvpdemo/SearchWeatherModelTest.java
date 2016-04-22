@@ -1,6 +1,7 @@
 package com.jacksen.mvpdemo;
 
 import com.jacksen.mvpdemo.model.SearchWeatherImpl;
+import com.jacksen.mvpdemo.presenter.WeatherPresenterImpl;
 
 import org.junit.Test;
 
@@ -11,7 +12,7 @@ public class SearchWeatherModelTest {
 
     @Test
     public void testSearchWeather() {
-        SearchWeatherImpl searchWeather = new SearchWeatherImpl();
+        SearchWeatherImpl searchWeather = new SearchWeatherImpl(new WeatherPresenterImpl());
         searchWeather.searchWeather("beijing");
     }
 }
